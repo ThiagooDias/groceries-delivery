@@ -1,0 +1,63 @@
+@import url('topbar.css');
+@import url('carousel.css');
+@import url('shop-cards.css');
+@import url('besteseller.css');
+@import url('most-popular.css');
+
+:root {
+  --ligth-gray-1: #fafafa;
+  --ligth-gray-2: #fff;
+  --primary-color: #23a6f0;
+  --secoundary-color-1: #23856d;
+  --text-color: #252b42;
+  --secound-text-color: #737373;
+  --muted-color: #bdbdbd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+}
+
+body {
+  background-color: var(--ligth-gray-2);
+}
+
+
+h1 {
+  font-size: 3.625rem;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  width: 204px;
+  height: 62px;
+  border-radius: 5px;
+  padding: 15px, 40px, 15px, 40px;
+  background-color: var(--primary-color);
+
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: var(--ligth-gray-1);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.old-price {
+  color: var(--muted-color);
+  font-weight: 700;
+}
+
+.current-price {
+  color: var(--secoundary-color-1);
+  font-weight: 700;
+}
+
+

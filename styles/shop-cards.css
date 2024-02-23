@@ -1,0 +1,40 @@
+.container-cards {
+  padding: 80px 140px;
+  background-color: var(--ligth-gray-1);
+  display: flex;
+  gap: 43px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  margin: 20px;
+  background-color: var(--ligth-gray-2);
+  display: grid;
+  color: var(--text-color);
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 0 20px;
+  border: 1px solid #ececec;
+  width: 300px;
+  height: 200px;
+}
+
+.card .text-card > * {
+  margin-bottom: 16px;
+}
+
+.header-card {
+  color: var(--secound-text-color);
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.title-card {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.subtitle-card {
+  font-size: 0.75rem;
+}

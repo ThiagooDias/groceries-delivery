@@ -1,0 +1,38 @@
+#product-cards-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.grid-most-popular {
+  margin: 48px 200px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.grid-most-popular img {
+  width: 100%;
+}
+
+.most-popular {
+  margin: 80px 26px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.most-popular h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.most-popular p {
+  font-size: 0.875rem;
+  color: var(--secound-text-color);
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.most-popular h4 {
+  margin: 56px 0 20px;
+}
