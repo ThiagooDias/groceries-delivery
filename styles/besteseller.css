@@ -1,4 +1,4 @@
-#product-cards-1 {
+#product-cards-1, #product-cards-3 {
   display: flex;
   justify-content: center;
 }
@@ -58,4 +58,12 @@
   font-size: 0.875rem;
   font-weight: 700;
   margin: 10px auto;
+}
+
+.inverted-bestseller {
+  grid-template-columns: 2fr 1fr;
+}
+
+.inverted-bestseller div:first-child {
+  order: 2;
 }

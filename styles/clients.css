@@ -1,0 +1,8 @@
+#clients {
+  padding: 0 160px;
+}
+
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+}

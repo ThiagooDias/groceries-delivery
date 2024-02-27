@@ -1,0 +1,8 @@
+#product-cards-5 {
+  padding: 0 160px;
+}
+
+.flex-card {
+  display: flex;
+  justify-content: space-between;
+}

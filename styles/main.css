@@ -3,15 +3,21 @@
 @import url('shop-cards.css');
 @import url('besteseller.css');
 @import url('most-popular.css');
+@import url('besteseller-flex.css');
+@import url('clients.css');
+@import url('blog.css');
+@import url('footer.css');
 
 :root {
   --ligth-gray-1: #fafafa;
   --ligth-gray-2: #fff;
+  --ligth-text-color: #FFFFFF;
+  --text-color: #252b42;
   --primary-color: #23a6f0;
   --secoundary-color-1: #23856d;
-  --text-color: #252b42;
   --secound-text-color: #737373;
   --muted-color: #bdbdbd;
+  --dark-background: #252B42;
 }
 
 * {
@@ -30,11 +36,46 @@ h1 {
   font-weight: 700;
 }
 
+h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-color);
+  letter-spacing: 0.2px;
+  line-height: 30px;
+}
+
+h5 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-color);
+}
+
 a {
   text-decoration: none;
 }
 
-.button {
+li {
+  list-style: none;
+}
+
+main {
+  padding: 0 160px;
+}
+
+.button-primary {
   width: 204px;
   height: 62px;
   border-radius: 5px;
@@ -43,7 +84,23 @@ a {
 
   font-weight: 700;
   font-size: 1.5rem;
-  color: var(--ligth-gray-1);
+  color: var(--ligth-text-color);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-secondary {
+  width: 160px;
+  height: 52px;
+  border-radius: 5px;
+  padding: 15px, 40px, 15px, 40px;
+  background-color: var(--primary-color);
+
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: var(--ligth-text-color);
 
   display: flex;
   justify-content: center;

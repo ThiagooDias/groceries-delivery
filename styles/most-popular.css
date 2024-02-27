@@ -10,7 +10,7 @@
 }
 
 .grid-most-popular img {
-  width: 100%;
+  max-width: 100%;
 }
 
 .most-popular {
@@ -33,6 +33,21 @@
   margin-bottom: 56px;
 }
 
+.most-popular > span {
+  margin-bottom: 20px;
+  font-size: 0.875rem;
+  color: var(--secound-text-color);
+  font-weight: 700;
+}
+
 .most-popular h4 {
   margin: 56px 0 20px;
+}
+
+.inverted-most-popular {
+  grid-template-columns: 1fr 2fr;
+}
+
+.inverted-most-popular img:first-child {
+  order: 2;
 }
