@@ -1,8 +1,12 @@
 #clients {
-  padding: 0 160px;
+  display: flex;
+  justify-content: center;
+  background-color: var(--ligth-gray-1);
 }
 
 .clients-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 60px;
+  margin: 60px 0;
 }

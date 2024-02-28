@@ -4,31 +4,44 @@
 }
 
 .grid-container {
-  padding: 48px 0;
+  margin: 48px 0;
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 48px;
 }
 
+.said-img {
+  position: relative;
+}
+
+.furniture {
+  position: absolute;
+  top: 24px;
+  left: 48px;
+}
+
+.furniture > p {
+  margin-top: 5px;
+  font-size: 0.875rem;
+  color: var(--secound-text-color);
+  font-weight: 700;
+}
+
+
 .topbar-bestseller {
   display: flex;
   align-items: center;
   padding: 12px;
-  /* PROVISORIO V */
   gap: 24px;
 }
 
-/* .grid-product-besteseller::before {
-  content: '';
-  position: absolute; 
-  width: 800px;
-  border-bottom: 2px solid #000;
-} */
+
 
 .topbar-bestseller > span {
   color: var(--secound-text-color);
   font-weight: 700;
 }
+
 
 .grid-product-besteseller {
   padding: 24px;
@@ -39,14 +52,6 @@
   column-gap: 15px;
 }
 
-.card-product-bestseller {
-  width: 183px;
-  height: 324px;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 .title-product-bestseller {
   color: var(--text-color);
@@ -64,6 +69,6 @@
   grid-template-columns: 2fr 1fr;
 }
 
-.inverted-bestseller div:first-child {
+.inverted-bestseller .said-img {
   order: 2;
 }

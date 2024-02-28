@@ -1,8 +1,24 @@
 #product-cards-5 {
-  padding: 0 160px;
+  display: flex;
+  justify-content: center;
+  background-color: var(--ligth-gray-1);
+}
+
+.conatiner-flex {
+  max-width: 1140px;
 }
 
 .flex-card {
   display: flex;
-  justify-content: space-between;
+  gap: 30px;
+  justify-content: center;
+  margin: 24px 38px 48px;
+}
+
+.card-product-bestseller {
+  width: 183px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

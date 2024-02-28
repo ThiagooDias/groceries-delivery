@@ -18,6 +18,7 @@
   --secound-text-color: #737373;
   --muted-color: #bdbdbd;
   --dark-background: #252B42;
+  --disabled-element: #8EC2F2;
 }
 
 * {
@@ -42,7 +43,6 @@ h2 {
   color: var(--text-color);
 }
 
-
 h3 {
   font-size: 1.5rem;
   font-weight: 700;
@@ -63,6 +63,12 @@ h5 {
   color: var(--text-color);
 }
 
+h6 {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--text-color);
+}
+
 a {
   text-decoration: none;
 }
@@ -71,8 +77,8 @@ li {
   list-style: none;
 }
 
-main {
-  padding: 0 160px;
+hr {
+  border-color: #ECECEC;
 }
 
 .button-primary {
