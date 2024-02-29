@@ -54,7 +54,7 @@
   grid-template-columns: 1fr 2fr;
 }
 
-.inverted-most-popular img:first-child {
+.inverted-most-popular > img {
   order: 2;
 }
 .step-by-step {

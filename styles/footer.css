@@ -28,6 +28,7 @@ footer {
 
 .about-us li {
   font-weight: 700;
+  font-size: 0.75rem;
   margin-bottom: 12px;
   display: flex;
   align-items: center;

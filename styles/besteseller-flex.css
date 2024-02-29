@@ -2,10 +2,15 @@
   display: flex;
   justify-content: center;
   background-color: var(--ligth-gray-1);
+  padding: 48px 0;
 }
 
 .conatiner-flex {
   max-width: 1140px;
+}
+
+.conatiner-flex > hr {
+  margin: 34px 0;
 }
 
 .flex-card {
@@ -16,7 +21,6 @@
 }
 
 .card-product-bestseller {
-  width: 183px;
   padding: 10px;
   display: flex;
   flex-direction: column;

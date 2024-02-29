@@ -1,21 +1,16 @@
-
-
 .container-topbar {
   background-color: var(--ligth-gray-2);
-  margin: 0 60px;
+  padding: 0 160px;
 }
 
 #top-bar {
   height: 90px;
   display: flex;
-  padding: 0 120px;
+  /* padding: 0 120px; */
   justify-content: space-between;
   align-items: center;
 }
 
-#top-bar nav {
-  display: flex;
-}
 
 nav ul {
   display: flex;
@@ -24,5 +19,42 @@ nav ul {
   margin: 10px;
 }
 nav ul li {
-  margin-right: 10px;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.mid-nav a {
+  color: var(--secound-text-color);
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.mid-nav a:visited {
+  color: var(--secound-text-color);
+}
+
+.mid-nav a:hover {
+  color: var(--primary-color);
+  transition:color 0.3s ease;
+}
+
+.said-nav {
+  display: flex;
+  color: var(--primary-color);
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.said-nav a:visited {
+  color: var(--primary-color);
+}
+
+.said-nav a:hover {
+  text-decoration: underline;
+  transition:color 0.3s ease;
 }

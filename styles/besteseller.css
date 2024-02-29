@@ -27,7 +27,6 @@
   font-weight: 700;
 }
 
-
 .topbar-bestseller {
   display: flex;
   align-items: center;
@@ -35,13 +34,10 @@
   gap: 24px;
 }
 
-
-
-.topbar-bestseller > span {
+.topbar-bestseller span {
   color: var(--secound-text-color);
   font-weight: 700;
 }
-
 
 .grid-product-besteseller {
   padding: 24px;
